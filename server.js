@@ -8,7 +8,6 @@ const app = express();
 app.use(express.static(__dirname));
 
 // mail handling
-// TODO: add .env
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.post("/send-email", function(req, res) {
