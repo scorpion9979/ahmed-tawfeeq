@@ -41,6 +41,6 @@ app.post("/send-email", function(req, res) {
     });
 });
 
-const listener = app.listen(3000, function() {
+const listener = app.listen(process.env.PORT || 3000, function() {
     console.log('Listening on port ' + listener.address().port)
 });
