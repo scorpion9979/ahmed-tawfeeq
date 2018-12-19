@@ -24,6 +24,7 @@ app.post("/send-email", function(req, res) {
         from: '"' + req.body.name + '" <' + req.body.email + '>',
         to: process.env.RECEPIENT_EMAIL,
         subject: "New mail for Ahmed the Ninja",
+        // TODO: add phone info
         html: "<b>Received via Ahmed the Ninja</b><p>" + req.body.message + "</p>"
     };
     transporter.sendMail(mailOptions, (error, info) => {
