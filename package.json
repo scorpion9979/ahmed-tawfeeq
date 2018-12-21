@@ -1,14 +1,14 @@
 {
-    "title": "Ahmed the Ninja",
-    "name": "ahmed-the-ninja",
+    "title": "Ahmed Tawfeeq",
+    "name": "ahmed-tawfeeq",
     "version": "0.1.0",
     "description": "@scorpion9979's personal landing page and portfolio",
-    "homepage": "https://ahmedthe.ninja",
+    "homepage": "https://ahmedtawfeeq.me",
     "license": "MIT",
     "author": "Ahmed Ihsan Tawfeeq",
     "repository": {
         "type": "git",
-        "url": "https://github.com/scorpion9979/ahmed-the-ninja.git"
+        "url": "https://github.com/scorpion9979/ahmed-tawfeeq.git"
     },
     "scripts": {
         "start": "node server"

@@ -1,14 +1,13 @@
 # [Ahmed the Ninja](https://ahmedthe.ninja)
 
-[Ahmed the Ninja](https://ahmedthe.ninja) is [@scorpion9979](https://github.com/scorpion9979/)'s personal landing page and portfolio created using [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) and [Start Bootstrap](http://startbootstrap.com/).
+[Ahmed Tawfeeq](https://ahmedtawfeeq.me) is [@scorpion9979](https://github.com/scorpion9979/)'s personal landing page and portfolio created using [Start Bootstrap](http://startbootstrap.com/) and [Node.js](https://nodejs.org).
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/scorpion9979/ahmed-tawfeeq/master/LICENSE)
+[![Build Status](https://travis-ci.com/scorpion9979/ahmed-tawfeeq.svg?branch=master)](https://travis-ci.com/scorpion9979/ahmed-tawfeeq)
+[![dependencies Status](https://david-dm.org/scorpion9979/ahmed-tawfeeq/status.svg)](https://david-dm.org/scorpion9979/ahmed-tawfeeq)
+[![devDependencies Status](https://david-dm.org/scorpion9979/ahmed-tawfeeq/dev-status.svg)](https://david-dm.org/scorpion9979/ahmed-tawfeeq?type=dev)
 
 ## About Start Bootstrap
 
@@ -27,4 +26,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2018 Ahmed the Ninja Code released under the [MIT](https://github.com/scorpion9979/ahmed-the-ninja/blob/gh-pages/LICENSE) license.
+Copyright 2018 Ahmed Tawfeeq Code released under the [MIT](https://github.com/scorpion9979/ahmed-tawfeeq/blob/master/LICENSE) license.
