@@ -1,4 +1,4 @@
-# [Ahmed the Ninja](https://ahmedthe.ninja)
+# [Ahmed Tawfeeq](https://ahmedtawfeeq.me)
 
 [Ahmed Tawfeeq](https://ahmedtawfeeq.me) is [@scorpion9979](https://github.com/scorpion9979/)'s personal landing page and portfolio created using [Start Bootstrap](http://startbootstrap.com/) and [Node.js](https://nodejs.org).
 
