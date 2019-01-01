@@ -275,7 +275,7 @@
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
-        <small>Copyright &copy; Ahmed Tawfeeq 2018</small>
+        <small id="copyright"></small>
       </div>
     </div>
 
@@ -717,6 +717,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Dynamic copyright date -->
+    <script>document.getElementById("copyright").innerHTML = `Copyright &copy; Ahmed Tawfeeq ${new Date().getFullYear()}`;</script>
 
   </body>
 

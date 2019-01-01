@@ -1,6 +1,6 @@
 /*!
  * Ahmed Tawfeeq v0.1.0 (https://ahmedtawfeeq.me)
- * Copyright 2018-2018 Ahmed Ihsan Tawfeeq
+ * Copyright 2018-2019 Ahmed Ihsan Tawfeeq
  * Licensed under MIT (https://github.com/scorpion9979/ahmed-tawfeeq/blob/master/LICENSE)
  */
 
