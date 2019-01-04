@@ -1,6 +1,16 @@
 // Styling for the portfolio section
 .portfolio {
   margin-bottom: -15px;
+  .portfolio-list-item {
+    padding: 15px;
+    -webkit-transition: all ease 0.25s;
+    -moz-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+    &:hover {
+      color: white !important;
+      background-color: fade-out($secondary, .7);
+    }
+  }
   .portfolio-item {
     position: relative;
     display: block;

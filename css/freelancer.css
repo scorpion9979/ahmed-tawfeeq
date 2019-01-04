@@ -178,7 +178,7 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   line-height: 3rem;
 }
 
@@ -203,6 +203,21 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+}
+
+.portfolio .portfolio-list-item {
+  padding: 15px;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+}
+
+.portfolio .portfolio-list-item:hover {
+  color: white !important;
+  background-color: rgba(44, 62, 80, 0.3);
+}
+
+.portfolio .portfolio-list-item:focus {
+  color: #2C3E50;
 }
 
 .portfolio .portfolio-item {
