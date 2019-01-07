@@ -21,7 +21,7 @@ app.post("/send-email", function(req, res) {
         }
     });
     let mailOptions = {
-        from: `"${req.body.name}" <${req.body.email}>`,
+        from: `"ahmedtawfeeq.me" <${process.env.SMTP_USER}>`,
         to: process.env.RECEPIENT_EMAIL,
         subject: `New mail for Ahmed Tawfeeq`,
         // email template from:
@@ -62,19 +62,21 @@ app.post("/send-email", function(req, res) {
                             <tr>
                             <td>
                                 <!-- column 2 -->
-                                <table align="left" class="column" style='width:300px;width:100%;width:280px;min-width:279px;float:left;'>
+                                <table align="left" class="column" style='width:300px;width:100%;min-width:279px;float:left;'>
                                 <tr>
                                     <td style='padding:15px;'>
                                     <h5 class="" style='font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;line-height:1.1;margin-bottom:15px;color:#000;font-weight:900;font-size:17px;'>Contact Info:</h5>
                                     <p style='margin-bottom:10px;font-weight:normal;font-size:14px;line-height:1.6;'>
+                                    Name: <strong>
+                                        ${req.body.name}
+                                    </strong>
+                                    <br/>
                                     Phone: <strong>
                                         ${req.body.phone}
                                     </strong>
                                     <br/>
-                                    Email: <strong>
-                                        <a href="emailto:hseldon@trantor.com" style='color:#2BA6CB;'>
-                                            ${req.body.email}
-                                        </a>
+                                    Email: <strong style='color:#2BA6CB;'>
+                                        ${req.body.email}
                                     </strong></p>
                                     </td>
                                 </tr>
