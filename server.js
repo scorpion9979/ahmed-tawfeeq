@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 // prevent Heroku app from sleeping
 setInterval(function() {
     http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com`);
-    console.log("\x1b[33m%s\x1b[0m", "Prevented app from sleeping");
+    console.log("Prevented app from sleeping");
 }, process.env.PING_INTERVAL);
 
 // mail handling
