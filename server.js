@@ -1,4 +1,5 @@
-const express = require('express'); 
+const express = require('express');
+const http = require("http");
 const nodeMailer = require("nodemailer");
 const bodyParser = require("body-parser");
 require('dotenv').config();
@@ -6,6 +7,12 @@ require('dotenv').config();
 // serve static files
 const app = express();
 app.use(express.static(__dirname));
+
+// prevent Heroku app from sleeping
+setInterval(function() {
+    http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com`);
+    console.log("\x1b[33m%s\x1b[0m", "Prevented app from sleeping");
+}, process.env.PING_INTERVAL);
 
 // mail handling
 app.use(bodyParser.urlencoded({ extended: true }));
