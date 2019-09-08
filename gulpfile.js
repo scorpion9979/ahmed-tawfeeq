@@ -61,7 +61,6 @@ gulp.task('css:compile', (done) => {
       outputStyle: 'expanded'
     }).on('error', sass.logError))
     .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
       cascade: false
     }))
     .pipe(header(banner, {
@@ -125,8 +124,8 @@ gulp.task('browserSync', (done) => {
 
 // Dev task
 gulp.task('dev', gulp.series('css', 'js', 'browserSync', (done) => {
-  gulp.watch('./scss/*.scss', ['css']);
-  gulp.watch('./js/*.js', ['js']);
+  gulp.watch('./scss/*.scss', gulp.series('css'));
+  gulp.watch('./js/*.js', gulp.series('js'));
   gulp.watch('./*.html', browserSync.reload);
   done();
 }));
