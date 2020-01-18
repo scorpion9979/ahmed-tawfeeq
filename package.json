@@ -12,6 +12,7 @@
     },
     "scripts": {
         "start": "node server",
+        "build": "gulp",
         "dev": "gulp dev"
     },
     "dependencies": {
