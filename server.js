@@ -9,10 +9,12 @@ const app = express();
 app.use(express.static(__dirname));
 
 // prevent Heroku app from sleeping
-setInterval(function() {
-    http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com`);
-    console.log("Prevented app from sleeping");
-}, process.env.PING_INTERVAL);
+if (process.env.PREVENT_SLEEP && process.env.PREVENT_SLEEP === "true") {
+    setInterval(function() {
+        http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com`);
+        console.log("Prevented app from sleeping");
+    }, process.env.PING_INTERVAL);
+}
 
 // mail handling
 app.use(bodyParser.urlencoded({ extended: true }));
